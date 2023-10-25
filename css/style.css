@@ -1,0 +1,105 @@
+body {
+  font-family: "Titillium Web", sans-serif;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.logo {
+  padding-left: 10px;
+  color: #111111;
+}
+
+.header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header li {
+  padding: 10px;
+}
+
+.header a {
+  color: #111111;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+}
+
+/* MAIN */
+
+.introduction-bg {
+  background-image: url(/img/main.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 10px;
+}
+
+.introduction {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.introduction-info {
+  background-color: #d48166;
+  margin: 300px 0 75px 0;
+  display: block;
+  padding: 20px;
+  justify-content: center;
+}
+
+.introduction-info h1 {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 4.5rem;
+  line-height: 1;
+  margin: 35px 110px 0 0;
+}
+
+.introduction-social {
+  margin: 48px 447px 35px 0;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.introduction-social a {
+  margin-right: 15px;
+  font-size: 1.125rem;
+  color: #ffffff;
+}
