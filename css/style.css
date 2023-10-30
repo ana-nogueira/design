@@ -103,3 +103,60 @@ a {
   font-size: 1.125rem;
   color: #ffffff;
 }
+
+/* ACHIEVEMENTS */
+
+.achievements-bg {
+  background-color: #373a36;
+}
+
+.achievements {
+  display: flex;
+  flex-direction: column;
+}
+
+.achievements-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.achievements-text h2 {
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: 400;
+}
+.achievements-text p {
+  font-size: 0.875rem;
+  color: #ffffff;
+  letter-spacing: 2px;
+  margin: 20px auto 15px;
+  max-width: 560px;
+}
+
+.achievements-info {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 65px;
+  margin-bottom: 65px;
+}
+
+.achievements-item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.achievements-item h1 {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 4rem;
+}
+
+.achievements-item p {
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
